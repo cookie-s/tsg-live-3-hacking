@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+        <script src="OrbitControls.js"></script>
+    </head>
+    <body>
+
+        <table>
+            <tr>
+                <td><div id="canvas"></div></td>
+                <td>
+                    <form id="mode">
+                        <input type="radio" name="mode" onclick="main()" value="0">RGB   Cube
+                        <input type="radio" name="mode" onclick="main()" value="1">YCbCr Cube
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <script src="space.js"></script>
+    </body>
+</html>
